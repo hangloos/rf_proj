@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+u = Unit.create(name: "potty", cleaning_time: 50)
+a = Address.create(name: "place 1", number: "1509", street: "W Thomas Street", city: "chicago", zipcode: 60642)
+r = AddressUnit.create(quantity: 5, address_id: a.id, unit_id: u.id)
