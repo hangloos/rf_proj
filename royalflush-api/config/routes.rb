@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :addresses, :units
+    resources :addresses, :units, :address_unit
   end
 
 end
